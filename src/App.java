@@ -1,5 +1,9 @@
+import javax.swing.JOptionPane;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        String input = JOptionPane.showInputDialog( "ingresa un entero");
+        int suma = Integer.parseInt(input)+2;
+        JOptionPane.showMessageDialog(null, suma);
     }
 }
