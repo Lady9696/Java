@@ -5,6 +5,6 @@ public class App {
         String input = JOptionPane.showInputDialog( "ingresa un entero");
         int suma = Integer.parseInt(input)+2;
         JOptionPane.showMessageDialog(null, suma);
-        
+        //azxscdvfda
     }
 }
